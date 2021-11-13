@@ -1,6 +1,6 @@
 <?php
 class Game {
-	function __constructor() {}
+	function __construct() {}
 	
 	public function initialize(): void {}
 	
@@ -16,8 +16,8 @@ class Game {
 }
 
 class Cricket extends Game {
-	function __constructor() {
-		parent::__constructor();
+	function __construct() {
+		parent::__construct();
 	}
 	
 	public function endPlay(): void {
@@ -38,8 +38,8 @@ class Cricket extends Game {
 }
 
 class Football extends Game {
-	function __constructor(): void {
-		parent::__constructor();
+	function __construct(): void {
+		parent::__construct();
 	}
 	
 	public function endPlay(): void {
